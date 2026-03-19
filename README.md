@@ -15,6 +15,8 @@
 ## 📢 News
 - **[2026/03/16]** We are thrilled to introduce **VTC-Bench**, a comprehensive benchmark designed to rigorously evaluate the advanced tool-use proficiency and multi-tool composition capabilities of Multimodal Large Language Models (MLLMs). 🎉 
 
+![Teaser](./src/Teaser.jpg)
+
 ## 📌 Introduction
 
 - Recent advancements have extended Multimodal Large Language Models (MLLMs) beyond standard visual question answering to utilizing external tools for advanced visual tasks, effectively transforming them into active, agentic problem solvers. 
@@ -30,6 +32,8 @@ VTC-Bench is organized into a three-tier cognitive hierarchy that maps the evolu
 1. **Tier 1: Visual Perception Enhancement:** Foundational tasks including Robust OCR, Perceptual Restoration, and Attention Focusing. These require models to mitigate environmental interference and rectify geometric distortions.
 2. **Tier 2: Quantitative Visual Estimation:** Tasks including Measurement, Color, and Counting. These evaluate the model's capacity to perceive and precisely quantify physical attributes.
 3. **Tier 3: Compositional Visual Reasoning:** Advanced tasks including Chart, Math, and Spatial Reasoning. These demand complex logical deduction through multi-step tool orchestration and auxiliary construction.
+   
+![Tasks](./src/Tasks.jpg)
 
 ## ✨ Evaluation Pipeline
 
@@ -42,6 +46,9 @@ VTC-Bench supports evaluating models across two distinct tool-use interaction pa
 ### 📍 Track B: Atomic OpenCV Toolbox (Interface-Driven)
 - In this track, the agent interacts iteratively with predefined interfaces from a suite of 32 distinct tools (categorized into Geometry, Enhancement, Feature Extraction, and Drawing).
 - We utilize frameworks like Qwen-Agent (for models with native tool-calling) or Thyme (for generating code/interfaces for open-source models) to manage the reasoning and execution layer.
+
+![Tasks](./src/workflow.jpg)
+
 
 ## 🚀 Quick Start / Evaluation Usage
 
@@ -76,6 +83,10 @@ VTC-Bench evaluates models across 9 diverse tasks requiring complex toolchaining
 - **Perceptual Restoration:** Neutralizing haze and noise to recover semantic info.
 - **Robust OCR:** Strategic planning to binarize and sharpen before text recognition under compound degradation.
 - **Spatial Reasoning:** Transforming visual cues into precise spatial coordinates.
+
+![Tasks](./src/bad_case_new_1.jpg)
+![Tasks](./src/bad_case_new_2.jpg)
+
 
 ## 📚 Citation
 If you find our benchmark useful for your research, please consider citing our paper:
