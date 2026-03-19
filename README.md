@@ -35,7 +35,9 @@ VTC-Bench is organized into a three-tier cognitive hierarchy that maps the evolu
 2. **Tier 2: Quantitative Visual Estimation:** Tasks including Measurement, Color, and Counting. These evaluate the model's capacity to perceive and precisely quantify physical attributes.
 3. **Tier 3: Compositional Visual Reasoning:** Advanced tasks including Chart, Math, and Spatial Reasoning. These demand complex logical deduction through multi-step tool orchestration and auxiliary construction.
    
-![Tasks](./src/Tasks.jpg)
+<p align="center">
+<img src="./src/Tasks.jpg" alt="Tasks" width="80%">
+</p>
 
 ## ✨ Evaluation Pipeline
 
