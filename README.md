@@ -15,7 +15,9 @@
 ## 📢 News
 - **[2026/03/16]** We are thrilled to introduce **VTC-Bench**, a comprehensive benchmark designed to rigorously evaluate the advanced tool-use proficiency and multi-tool composition capabilities of Multimodal Large Language Models (MLLMs). 🎉 
 
-![Teaser](./src/Teaser.jpg)
+<p align="center">
+<img src="./src/Teaser.jpg" alt="Tasks" width="80%">
+</p>
 
 ## 📌 Introduction
 
