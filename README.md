@@ -47,6 +47,9 @@ VTC-Bench supports evaluating models across two distinct tool-use interaction pa
 - In this track, the agent interacts iteratively with predefined interfaces from a suite of 32 distinct tools (categorized into Geometry, Enhancement, Feature Extraction, and Drawing).
 - We utilize frameworks like Qwen-Agent (for models with native tool-calling) or Thyme (for generating code/interfaces for open-source models) to manage the reasoning and execution layer.
 
+![Tasks](./src/workflow.jpg)
+
+
 ## 🚀 Quick Start / Evaluation Usage
 
 Follow these steps to quickly set up the environment and run evaluations on VTC-Bench:
@@ -80,6 +83,10 @@ VTC-Bench evaluates models across 9 diverse tasks requiring complex toolchaining
 - **Perceptual Restoration:** Neutralizing haze and noise to recover semantic info.
 - **Robust OCR:** Strategic planning to binarize and sharpen before text recognition under compound degradation.
 - **Spatial Reasoning:** Transforming visual cues into precise spatial coordinates.
+
+![Tasks](./src/bad_case_new_1.jpg)
+![Tasks](./src/bad_case_new_2.jpg)
+
 
 ## 📚 Citation
 If you find our benchmark useful for your research, please consider citing our paper:
