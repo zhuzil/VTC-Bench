@@ -4,26 +4,15 @@
 
 # VTC-Bench: Evaluating Agentic Multimodal Models via Compositional Visual Tool Chaining
 
-<div align="center">
-
-**arXiv Paper:** [![Static Badge](https://img.shields.io/badge/VTC--Bench-Paper-green)](https://arxiv.org/abs/2603.15030) &nbsp;&nbsp;&nbsp; **Dataset:** [![Static Badge](https://img.shields.io/badge/VTC--Bench-Dataset-blue)](https://huggingface.co/datasets/zzzhu/VTC-Bench) 
-
-</div>
 
 ---
 
-## 📢 News
-- **[2026/03/16]** We are thrilled to introduce **VTC-Bench**, a comprehensive benchmark designed to rigorously evaluate the advanced tool-use proficiency and multi-tool composition capabilities of Multimodal Large Language Models (MLLMs). 🎉 
-
-<p align="center">
-<img src="./src/Teaser.jpg" alt="Tasks" width="80%">
-</p>
 
 ## 📌 Introduction
 
 - Recent advancements have extended Multimodal Large Language Models (MLLMs) beyond standard visual question answering to utilizing external tools for advanced visual tasks, effectively transforming them into active, agentic problem solvers. 
 - Despite this progress, accurately executing and effectively composing diverse tools for complex visual tasks remains a persistent bottleneck. Existing benchmarks are often constrained by sparse tool-sets and simple tool-use trajectories, failing to capture the complex tool interactions required in practical, real-world conditions.
-- To bridge this critical gap, we introduce **Visual Tool Chain-Bench (VTC-Bench)**. To emulate authentic computer vision pipelines, our framework integrates **32 diverse OpenCV-based visual operations**.
+- To bridge this critical gap, we introduce **Visual Tool Chain-Bench (VTC-Bench)**. To emulate authentic computer vision pipelines, our framework integrates **35 diverse OpenCV-based visual operations**.
 - VTC-Bench features **680 curated problems** structured across a progressive nine-category cognitive hierarchy. A key feature of our benchmark is that every problem is paired with a **ground-truth execution trajectory**. These reference toolchains are primarily designed to facilitate fine-grained diagnostic analysis of the models' intermediate planning and tool-calling behaviors, providing deeper insights beyond just the final accuracy. 
 - Extensive experiments on 19 leading MLLMs reveal that even the top-performing model (Gemini-3.0-Pro) only achieves 51.2% on our benchmark, highlighting that multi-tool composition remains a persistent challenge and models often rely on suboptimal heuristics rather than optimal tool selection.
 
@@ -94,15 +83,3 @@ VTC-Bench evaluates models across 9 diverse tasks requiring complex toolchaining
 <img src="./src/bad_case_new_2.jpg" alt="Tasks" width="70%">
 </p>
 
-## 📚 Citation
-If you find our benchmark useful for your research, please consider citing our paper:
-```bibtex
-@misc{zhu2026vtcbench,
-      title={VTC-Bench: Evaluating Agentic Multimodal Models via Compositional Visual Tool Chaining}, 
-      author={Xuanyu Zhu and Yuhao Dong and Rundong Wang and Yang Shi and Zhipeng Wu and Yinlun Peng and YiFan Zhang and Yihang Lou and Yuanxing Zhang and Ziwei Liu and Yan Bai and Yuan Zhou},
-      year={2026},
-      eprint={2603.15030},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={[https://arxiv.org/abs/2603.15030](https://arxiv.org/abs/2603.15030)}, 
-}
