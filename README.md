@@ -5,10 +5,24 @@
 # VTC-Bench: Evaluating Agentic Multimodal Models via Compositional Visual Tool Chaining
 
 
+<div align="center">
+
+**arXiv Paper:** [![Static Badge](https://img.shields.io/badge/VTC--Bench-Paper-green)](https://arxiv.org/abs/2603.15030) &nbsp;&nbsp;&nbsp; **Dataset:** [![Static Badge](https://img.shields.io/badge/VTC--Bench-Dataset-blue)](https://huggingface.co/datasets/zzzhu/VTC-Bench) 
+
+</div>
+
 ---
 
+## 📢 News
+- **[2026/03/16]** We are thrilled to introduce **VTC-Bench**, a comprehensive benchmark designed to rigorously evaluate the advanced tool-use proficiency and multi-tool composition capabilities of Multimodal Large Language Models (MLLMs). 🎉 
+
+
+<p align="center">
+<img src="./src/Teaser.jpg" alt="Teaser" width="80%">
+</p>
 
 ## 📌 Introduction
+
 
 - Recent advancements have extended Multimodal Large Language Models (MLLMs) beyond standard visual question answering to utilizing external tools for advanced visual tasks, effectively transforming them into active, agentic problem solvers. 
 - Despite this progress, accurately executing and effectively composing diverse tools for complex visual tasks remains a persistent bottleneck. Existing benchmarks are often constrained by sparse tool-sets and simple tool-use trajectories, failing to capture the complex tool interactions required in practical, real-world conditions.
