@@ -384,8 +384,8 @@ index	id	category	image	question	answer	A	B	C	D
 555	math_63	math	images/math/math_63.jpg	Find the radius of the circle passing through points A and B, with its center on the line CD.	B	8.50	7.90	8.10	8.30
 556	math_64	math	images/math/math_64.jpg	Find the distance from point P to the line EF in the figure.	D	9.14	8.94	8.74	9.34
 557	math_65	math	images/math/math_65.jpg	As shown in the figure, in rectangle ABCD, AB = 10, BC = 4, E is a moving point on side BC, then the minimum value of AE + ED is ____.	20.4				
-558	math_66	math	images/math/math_66.jpg	In right triangle △ABC, ∠C = 90°, AC = 4, BC = 8, then the sine value of ∠A is ____, and the radius of the inscribed circle is ____.	0.894, 1.53				
-559	math_67	math	images/math/math_67.jpg	In right triangle △ABC, ∠C = 90°, AC = 8, BC = 10, then the sine value of ∠A is ____, and the radius of the inscribed circle is ____.	0.781, 2.6				
+558	math_66	math	images/math/math_66.jpg	In right triangle △ABC, ∠A = 90°, AB = 4, AC = 8, then the sine value of ∠B is ____, and the radius of the inscribed circle is ____.	0.894, 1.53				
+559	math_67	math	images/math/math_67.jpg	In right triangle △ABC, ∠A = 90°, AB = 8, AC = 10, then the sine value of ∠B is ____, and the radius of the inscribed circle is ____.	0.781, 2.6				
 560	math_68	math	images/math/math_68.jpg	In the rectangular coordinate plane, A(3,3) and B(6,-1), the equation of the perpendicular bisector of line segment AB is ____________.	y=0.75x-2.38				
 561	math_69	math	images/math/math_69.jpg	As shown in the figure, in rectangle ABCD, AB = 12, BC = 4, E is a moving point on side BC, then the minimum value of AE + ED is ____.	24.33				
 562	math_70	math	images/math/math_70.jpg	Given that the side length of rhombus ABCD is 8 cm and one diagonal is 6 cm, then the length of the other diagonal is ____ cm, and the area of the rhombus is ____ cm².	14.83, 44.5				
