@@ -1,6 +1,3 @@
-# 排除图片数据目录
-data/images/
-
 # 排除工作区生成的临时图片
 eval/workspace/tools/opencv/
 
